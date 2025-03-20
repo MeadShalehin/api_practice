@@ -1,5 +1,8 @@
 {
   "home": "Home",
+  "photos": "Photos",
+  "search": "Search",
+  "messages": "Messages",
   "profile": "Profile",
   "alerts": "Alerts"
 }

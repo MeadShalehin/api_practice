@@ -1,4 +1,4 @@
-import 'package:api_practice/screens/alerts.dart';
+import 'package:api_practice/screens/photos.dart';
 import 'package:api_practice/screens/home_screen.dart';
 import 'package:api_practice/screens/message.dart';
 import 'package:api_practice/screens/profile.dart';
@@ -19,7 +19,7 @@ class _BottomNavBarState extends State<BottomNavBar> {
 
   final List<Widget> _screens = [
     Home(),
-    const Alerts(),
+    const Photos(),
     const Search(),
     const Message(),
     Profile(),
@@ -65,9 +65,9 @@ class _BottomNavBarState extends State<BottomNavBar> {
                 label: "home".tr,
               ),
               _buildNavItem(
-                icon: Icons.notifications_none,
-                activeIcon: Icons.notifications,
-                label: "alerts".tr,
+                icon: Icons.insert_photo_outlined,
+                activeIcon: Icons.photo_rounded,
+                label: "photos".tr,
               ),
               _buildNavItem(
                 icon: Icons.search,

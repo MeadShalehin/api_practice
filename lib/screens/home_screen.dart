@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
 
   Future<List<PostModel>> getPostApi() async {
     final response =
-        await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts'));
+    await http.get(Uri.parse('https://jsonplaceholder.typicode.com/posts'));
     var data = jsonDecode(response.body.toString());
     if (response.statusCode == 200) {
       postList.clear();
