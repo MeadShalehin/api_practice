@@ -9,5 +9,4 @@ class AppColors{
   static const Color whiteColor2 = Color(0xFF888888);
   static const Color blackColor = Color(0xFF000000);
 
-
 }
